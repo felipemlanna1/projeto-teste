@@ -1,3 +1,6 @@
+/**
+ * @jest-environment node
+ */
 import { validateSendMessagePayload } from '../validation';
 
 describe('validateSendMessagePayload', () => {

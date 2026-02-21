@@ -1,3 +1,6 @@
+/**
+ * @jest-environment node
+ */
 import { sendWhatsAppMessage } from '../whatsapp';
 
 jest.mock('twilio', () => {
