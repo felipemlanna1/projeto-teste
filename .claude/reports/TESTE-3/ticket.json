@@ -1,0 +1,32 @@
+{
+  "key": "TESTE-3",
+  "summary": "WhatsApp MCP - Setup API",
+  "labels": [
+    "backend",
+    "must",
+    "sprint-1"
+  ],
+  "status": "Tarefas pendentes",
+  "type": "Story",
+  "stack_scope": "backend",
+  "required_skills": [
+    "Next.js",
+    "TypeScript",
+    "API Routes",
+    "Twilio SDK",
+    "WhatsApp Business API",
+    "Environment Variables"
+  ],
+  "is_p0_p1": true,
+  "definicao_de_pronto": [
+    "API route /api/whatsapp/send criada e funcional",
+    "Validação de payload implementada",
+    "Integração com Twilio SDK concluída",
+    "Template de mensagens configurado",
+    "Credenciais (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_NUMBER) funcionando em .env.local",
+    "Testes unitários passando",
+    "Documentação de API routes atualizada"
+  ],
+  "detalhes_tecnicos": "Configurar API route Next.js para envio de mensagens via WhatsApp Business API (Twilio/Meta). Inclui: API route /api/whatsapp/send, validação de payload, integração com Twilio SDK, template de mensagens. Requer credenciais: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_NUMBER. Integração com WhatsApp Business API para envio automatizado de mensagens a partir da landing page.",
+  "dependencias": []
+}
