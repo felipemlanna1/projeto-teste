@@ -11,8 +11,14 @@ export default function GlobalError({
   return (
     <html lang="pt-BR">
       <body>
-        <div>
-          <button onClick={() => reset()}>Tentar novamente</button>
+        <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-900">Algo deu errado</h2>
+          <button
+            onClick={() => reset()}
+            className="rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-500"
+          >
+            Tentar novamente
+          </button>
         </div>
       </body>
     </html>

@@ -1,0 +1,1 @@
+/Users/felipemoreiralanna/Documents/GitHub/projeto-teste/CLAUDE.md

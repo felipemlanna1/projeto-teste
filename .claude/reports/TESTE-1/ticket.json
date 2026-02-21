@@ -1,0 +1,21 @@
+{
+  "key": "TESTE-1",
+  "summary": "Hero Section da Landing Page",
+  "labels": ["frontend", "must", "sprint-1"],
+  "status": "Tarefas pendentes",
+  "type": "História",
+  "stack_scope": "frontend",
+  "required_skills": ["landing-page", "architecture", "code-best-practices", "seo-optimization"],
+  "is_p0_p1": true,
+  "definicao_de_pronto": [
+    "Hero section renderiza com headline com gradiente",
+    "Botão CTA primário presente e funcional",
+    "Imagem hero com overlay implementada",
+    "Background gradient animado aplicado",
+    "Layout responsivo (mobile, tablet, desktop)",
+    "Lint passa sem erros",
+    "Build passa sem erros"
+  ],
+  "detalhes_tecnicos": "Criar hero section com headline, CTA button, imagem hero e gradiente de fundo. Scope: frontend. Componentes: headline com gradiente, botao CTA primario, imagem hero com overlay, background gradient animado.",
+  "dependencias": []
+}
