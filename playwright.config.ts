@@ -20,4 +20,10 @@ export default defineConfig({
       use: { ...devices["Desktop Chrome"] },
     },
   ],
+  webServer: {
+    command: "npm run dev -- -p 3010",
+    url: "http://localhost:3010",
+    reuseExistingServer: !process.env.CI,
+    timeout: 120000,
+  },
 });

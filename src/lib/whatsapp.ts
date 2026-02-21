@@ -57,3 +57,7 @@ export async function sendWhatsAppMessage(
     };
   }
 }
+
+export function generateWhatsAppLink(phone: string, message: string): string {
+  return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+}
